@@ -1,0 +1,22 @@
+{
+  "name": "007-fe-addo-cars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionder/007-fe-addo-cars.git"
+  },
+  "author": "lionder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lionder/007-fe-addo-cars/issues"
+  },
+  "homepage": "https://github.com/lionder/007-fe-addo-cars#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}
