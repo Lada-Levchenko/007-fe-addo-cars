@@ -1,0 +1,22 @@
+{
+  "name": "007-fe-addo-cars",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "lionder"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lionder/007-fe-addo-cars",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,42 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+/* View: car list */
+.list, .large-list {
+  list-style: none;
+}
+
+.list li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+.large-list li {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  padding-top: 15px;
+  margin: 10px;
+}
+
+.list li .thumb {
+  float: left;
+  height: 100px;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  width: 150px;
+}
+
+.large-list li .thumb {
+  float: left;
+  height: 100px;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  width: 190px;
+}

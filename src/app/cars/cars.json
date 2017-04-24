@@ -1,0 +1,60 @@
+[{
+  "id": 1,
+  "name": "Lada Kalina",
+  "price": 10000,
+  "imageUrl": "lada_kalina.jpg",
+  "year": 2006,
+  "fuel_type": "Diesel",
+  "mileage": 23400,
+  "stock_number": 786976
+}, {
+  "id": 2,
+  "name": "Lada Granta",
+  "price": 10000,
+  "imageUrl": "granta.jpg",
+  "transmission": "manual",
+  "fuel_type": "Diesel",
+  "year": 2014,
+  "mileage": 3545,
+  "stock_number": 353445
+}, {
+  "id": 3,
+  "name": "Lada Vesta",
+  "price": 10000,
+  "imageUrl": "Lada_Vesta.jpg",
+  "transmission": "manual",
+  "fuel_type": "Diesel",
+  "year": 2014,
+  "mileage": 23120,
+  "stock_number": 346456
+}, {
+  "id": 4,
+  "name": "Lada Revolution III",
+  "price": 10000,
+  "imageUrl": "Lada_revolution_III.JPG",
+  "transmission": "manual",
+  "fuel_type": "Diesel",
+  "year": 2016,
+  "mileage": 5345,
+  "stock_number": 373567
+}, {
+  "id": 5,
+  "name": "Lada Raven",
+  "price": 10000,
+  "imageUrl": "lada-raven.jpg",
+  "transmission": "manual",
+  "fuel_type": "Diesel",
+  "year": 2017,
+  "mileage": 221,
+  "stock_number": 353445
+}, {
+  "id": 6,
+  "name": "Lada Xray",
+  "price": 10000,
+  "imageUrl": "xray.jpg",
+  "transmission": "manual",
+  "fuel_type": "Diesel",
+  "year": 2017,
+  "mileage": 234,
+  "stock_number": 346456
+}]

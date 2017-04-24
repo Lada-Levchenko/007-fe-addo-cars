@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="carsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Cars</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/core.module.js"></script>
+    <script src="core/checkmark/checkmark.filter.js"></script>
+    <script src="core/car/car.module.js"></script>
+    <script src="core/car/car.service.js"></script>
+    <script src="car-list/car-list.module.js"></script>
+    <script src="car-list/car-list.component.js"></script>
+    <script src="car-detail/car-detail.module.js"></script>
+    <script src="car-detail/car-detail.component.js"></script>
+  </head>
+  <body>
+
+    <div ng-view></div>
+
+  </body>
+</html>

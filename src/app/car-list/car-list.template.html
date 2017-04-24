@@ -1,0 +1,41 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="year">By year</option>
+        </select>
+      </p>
+
+      <button ng-click="$ctrl.changeListClass('large-list')" type="button" class="btn btn-xs">
+        <span class="glyphicon glyphicon-th-large"></span>
+      </button>
+      <button ng-click="$ctrl.changeListClass('list')" type="button" class="btn btn-xs">
+        <span class="glyphicon glyphicon-th-list"></span>
+      </button>
+      <!--Body content-->
+
+      <ul class="{{$ctrl.listClass}}">
+        <li ng-repeat="car in $ctrl.cars | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
+          <a href="#!/cars" class="thumb">
+            <img ng-src="/img/cars/{{car.imageUrl}}" alt="{{car.name}}" />
+          </a>
+          <a href="#!/cars">{{car.name}}</a>
+          <p>{{car.year}}</p>
+        </li>
+      </ul>
+
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
