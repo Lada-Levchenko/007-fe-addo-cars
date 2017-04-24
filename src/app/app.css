@@ -6,14 +6,16 @@ h1 {
   border-bottom: 1px solid gray;
 }
 
-/* View: car list */
-.list, .large-list {
+ul.list, ul.large-list{
   list-style: none;
+  padding: 0;
+  padding-top: 15px;
 }
 
 .list li {
   clear: both;
   height: 115px;
+  max-width: 650px;
   padding-top: 15px;
 }
 

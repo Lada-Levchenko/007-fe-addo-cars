@@ -12,7 +12,10 @@ angular.
         this.listClass = 'list';
         this.changeListClass = function(lclass){
           this.listClass = lclass;
-        }
+        };
+        this.totalItems = this.cars.length;
+        this.currentPage = 1;
+        this.itemsPerPage = 3;
       }
     ]
   });

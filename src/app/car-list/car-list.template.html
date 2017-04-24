@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
       <!--Sidebar content-->
 
       <p>
@@ -14,6 +14,8 @@
         <select ng-model="$ctrl.orderProp">
           <option value="name">Alphabetical</option>
           <option value="year">By year</option>
+          <option value="price">By price</option>
+          <option value="mileage">By mileage</option>
         </select>
       </p>
 
@@ -25,17 +27,23 @@
       </button>
       <!--Body content-->
 
+      <ul uib-pagination total-items="totalItems" items-per-page="itemsPerPage"
+       ng-model="currentPage"></ul>
+
       <ul class="{{$ctrl.listClass}}">
-        <li ng-repeat="car in $ctrl.cars | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
+        <li ng-repeat="car in $ctrl.cars | filter:$ctrl.query | orderBy:$ctrl.orderProp
+      | startFrom:currentPage*itemsPerPage | limitTo:itemsPerPage" class="thumbnail">
           <a href="#!/cars" class="thumb">
             <img ng-src="/img/cars/{{car.imageUrl}}" alt="{{car.name}}" />
           </a>
           <a href="#!/cars">{{car.name}}</a>
           <p>{{car.year}}</p>
+          <p>{{car.price}}</p>
+          <p>{{car.mileage}}</p>
         </li>
       </ul>
 
     </div>
-    <div class="col-md-3"></div>
+    <div class="col-md-2"></div>
   </div>
 </div>

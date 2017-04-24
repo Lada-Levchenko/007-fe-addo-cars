@@ -10,7 +10,7 @@
 }, {
   "id": 2,
   "name": "Lada Granta",
-  "price": 10000,
+  "price": 85000,
   "imageUrl": "granta.jpg",
   "transmission": "manual",
   "fuel_type": "Diesel",
@@ -20,7 +20,7 @@
 }, {
   "id": 3,
   "name": "Lada Vesta",
-  "price": 10000,
+  "price": 74000,
   "imageUrl": "Lada_Vesta.jpg",
   "transmission": "manual",
   "fuel_type": "Diesel",
@@ -30,7 +30,7 @@
 }, {
   "id": 4,
   "name": "Lada Revolution III",
-  "price": 10000,
+  "price": 100000,
   "imageUrl": "Lada_revolution_III.JPG",
   "transmission": "manual",
   "fuel_type": "Diesel",
@@ -40,7 +40,7 @@
 }, {
   "id": 5,
   "name": "Lada Raven",
-  "price": 10000,
+  "price": 1000000,
   "imageUrl": "lada-raven.jpg",
   "transmission": "manual",
   "fuel_type": "Diesel",
@@ -50,7 +50,7 @@
 }, {
   "id": 6,
   "name": "Lada Xray",
-  "price": 10000,
+  "price": 100000,
   "imageUrl": "xray.jpg",
   "transmission": "manual",
   "fuel_type": "Diesel",
