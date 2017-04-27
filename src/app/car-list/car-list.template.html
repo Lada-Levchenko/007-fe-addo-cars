@@ -27,12 +27,11 @@
       </button>
       <!--Body content-->
 
-      <ul uib-pagination total-items="totalItems" items-per-page="itemsPerPage"
-       ng-model="currentPage"></ul>
-
+      <ul uib-pagination total-items="$ctrl.totalItems" items-per-page="$ctrl.itemsPerPage"
+       ng-model="$ctrl.currentPage"></ul>
       <ul class="{{$ctrl.listClass}}">
         <li ng-repeat="car in $ctrl.cars | filter:$ctrl.query | orderBy:$ctrl.orderProp
-      | startFrom:currentPage*itemsPerPage | limitTo:itemsPerPage" class="thumbnail">
+        | limitTo:$ctrl.itemsPerPage:(($ctrl.currentPage-1)*($ctrl.itemsPerPage))" class="thumbnail">
           <a href="#!/cars" class="thumb">
             <img ng-src="/img/cars/{{car.imageUrl}}" alt="{{car.name}}" />
           </a>
